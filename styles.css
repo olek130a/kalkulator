@@ -1,0 +1,83 @@
+body {
+    background: rgb(223,227,228);
+    background: linear-gradient(0deg, rgba(223,227,228,1) 42%, rgba(210,227,226,1) 80%, rgba(117,231,209,1) 100%);
+    justify-content: space-between;
+}
+
+.kalkulator {
+
+    margin: 0 auto;
+    padding-top: 5rem;
+    width: 30em;
+    height: 30em;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 10px 10px grey;
+    padding-top: 0;
+    border-radius: 20px 20px 20px 20px;
+   
+}
+.buttons {
+    
+    width: inherit;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 0;
+    border: 0px solid black;
+    border-radius: 0 0 20px 20px;
+   
+}
+button {
+    font-size: 30px;
+    color:#7B767F;
+    margin:0;
+    padding:0;
+    background: #F1F4F5;
+    border: none;
+    outline: none;
+}
+
+button:hover {
+    background-color: #4CAF50; 
+    color: white;
+    cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+input {
+    border: 0px solid black;
+    border-radius: 20px 20px 0 0;
+    height: 20%;
+    font-size: 40px;
+    padding: 0;
+    background: #F1F4F5;
+    font-size:50px;
+    color:#093432;
+    outline: none;
+}
+
+.sign{
+    color:#5B9FD8;
+}
+.equaSign {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border: 0px solid black;
+    border-radius: 0 0 0 20px;
+}
+
+.Csign {
+    border-radius: 0 0 20px 0;
+    border: 0px solid black;
+}
